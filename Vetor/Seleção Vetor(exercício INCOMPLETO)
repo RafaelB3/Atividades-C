@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main ()
+{
+    float *A;
+    int i;
+
+    *A = (float)malloc(sizeof(float)*100);
+    for(i=0;i<100;i++)
+    {
+        scanf("%f",&A);
+    }
+}
